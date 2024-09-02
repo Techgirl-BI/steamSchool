@@ -17,7 +17,7 @@ header{
 .menu{
     width: fit-content;
     margin-top: -30px;
-    margin-left: 450px;
+    margin-left: 350px;
     font-size: larger;
 }
 .menu-items{
@@ -125,4 +125,77 @@ header{
     font-size: 16px;
     color: #666;
   }
+  .benefits {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  .benefits h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .benefit-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .benefit-card {
+    margin: 20px;
+    width: calc(33.33% - 20px);
+    text-align: center;
+  }
+  
+  .benefit-card i {
+    font-size: 36px;
+    color: #2ecc71; /* Accent color */
+    margin-bottom: 10px;
+  }
+  
+  .benefit-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .benefit-card p {
+    font-size: 16px;
+    color: #666;
+  }
+.cta2 {
+  background-color: #2ecc71; /* Accent color */
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.cta h2 {
+  margin-bottom: 10px;
+}
+
+.cta p {
+  margin-bottom: 20px;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cta-btn {
+  background-color: #fff;
+  color: #2ecc71; /* Accent color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.cta-btn:hover {
+  background-color: #eee;
+}
+
+  
   
