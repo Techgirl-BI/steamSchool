@@ -1,0 +1,165 @@
+*{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  nav a:hover {
+    color: #666;
+  }
+  
+  .hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-content button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .hero-content button:hover {
+    background-color: #0056b3;
+  }
+  .features {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .feature-card {
+    margin: 20px;
+    padding: 20px;
+    width: calc(33.33% - 40px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card i {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .feature-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 16px;
+    color: #666;
+  }
+  .curriculum {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .curriculum-courses {
+    margin-top: 20px;
+  }
+  
+  .curriculum-courses h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .curriculum-courses ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .curriculum-courses li {
+    margin-bottom: 10px;
+  }
+  
+  .curriculum-courses a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .curriculum-courses a:hover {
+    color: #0056b3;
+  }
+  
+  
